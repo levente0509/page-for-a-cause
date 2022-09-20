@@ -1,0 +1,39 @@
+body {
+  background-image: url(pics/hatter2.jpg);
+}
+.flex {
+  display: flex;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  size: 32px;
+}
+
+.adopt {
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: orangered;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 150px;
+  top: 450px;
+  font-size: xx-large;
+}
+.founder {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 250px;
+  right: 150px;
+}
